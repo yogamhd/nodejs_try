@@ -7,7 +7,7 @@ mysql.originalCreateConnection = mysql.createConnection;
 res.originalRedirect = res.redirect;
 
 app.listen = function listen(port) {
-  var server = http.createServer(this);
+  var server = http.createServer(this); 
   return server.listen.apply(server, [3000]);
 };
 
