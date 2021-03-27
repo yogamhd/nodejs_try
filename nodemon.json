@@ -1,0 +1,4 @@
+{
+  "watch": ["/home/list-app"],
+  "ext": "css,ejs,js,json"
+}
